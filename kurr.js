@@ -3512,7 +3512,7 @@ break
 		anu =`PRICELIST SEWABOT
 		10K:6BULAN
 		20K:MANEN
-		SC? https://github.com/Bambang-Gans/kurz`
+		SC? https://github.com/Bambang-Gans/Kurz`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
@@ -3533,7 +3533,7 @@ doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     : ${pulsa}*
 *│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : SCAN DI ATAS AJA*
+*│*⬡ *GOPAY    : +62-8954-1269-1100*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 bambang.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
