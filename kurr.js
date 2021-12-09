@@ -88,9 +88,9 @@ const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.js')
 const scrapper = require('./lib/scrapper')
 const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const client = new WAConnection()
-const ownerNumber = "6282313021398@s.whatsapp.net"
-const dtod = "6282313021398@s.whatsapp.net"
-const otod = "6282313021398@s.whatsapp.net"
+const ownerNumber = "994407226475@s.whatsapp.net"
+const dtod = "994407226475@s.whatsapp.net"
+const otod = "994407226475@s.whatsapp.net"
 // STICKER WM
 //const exect = require('await-exec')
 //const webp = require('webp-converter')
@@ -364,7 +364,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
              bambang.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bambang.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `BTR BOT Assistans`, "footerText": "*_© BTR BOT Assistans_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = bambang.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/HvAIhOEDrMoJTbz7OqpbMZ', "groupName": `BTR BOT Assistans`, "footerText": "*_© BTR BOT Assistans_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             bambang.relayWAMessage(grup)
         }
 		idttt = []
@@ -5598,7 +5598,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"surface": "CATALOG",
 						"message": `BTR BOT Assistans`,
 						"orderTitle": `${NamaOwner}`,
-						"sellerJid": "6283161567237@s.whatsapp.net",
+						"sellerJid": "994407226475@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
 					}}}})
 		        }
@@ -5617,7 +5617,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"surface": "CATALOG",
 						"message": `BTR BOT Assistans`,
 						"orderTitle": `${NamaOwner}`,
-						"sellerJid": "6283161567237@s.whatsapp.net",
+						"sellerJid": "994407226475@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
 					}}}})
 		        }
