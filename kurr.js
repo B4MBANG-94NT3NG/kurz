@@ -309,7 +309,7 @@ try {
 		const c = args.join(' ')
 		var pes = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : ''
 		const messagesD = pes.slice(0).trim().split(/ +/).shift().toLowerCase()
-		const dfrply = fs.readFileSync('./logonya.jpeg')
+		const dfrply = fs.readFileSync('./logonya.jpg')
 		cmhit.push(command)
         mess = {
 			wait: 'Wait a minute',
@@ -385,9 +385,9 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 		      } catch {
 		pporang = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 		      }
-		const ofrply1 = fs.readFileSync('./logonya.jpeg')
+		const ofrply1 = fs.readFileSync('./logonya.jpg')
 		const ofrply = await getBuffer(pporang)
-		const pporigi = fs.readFileSync('./logonya.jpeg')
+		const pporigi = fs.readFileSync('./logonya.jpg')
 		const sekarang = new Date().getTime();
 			//-
 			//WAKTU
@@ -2464,7 +2464,7 @@ anu = bambang.prepareMessageFromContent(from,{
 						"width": 1274,
 						"mediaKey": "1SBZlmQxZQR+qZBVlBR5RcvDQNfYSRiYPT8uWDaEzLY=",
 						"fileEncSha256": "V6JNiialXPUGHn1j7Tz7YkXpU+QzOkBvOV7GZL2PRS4=",
-						"jpegThumbnail": fs.readFileSync("./logonya.jpeg")
+						"jpegThumbnail": fs.readFileSync("./logonya.jpg")
                                 },
                             "productId": "9999999",
 							"title": `${nama}`, 
@@ -2620,7 +2620,7 @@ if (!c) return reply('Textnya mana gan?')
 sticWait(from)
 kon = (`https://hardianto-chan.herokuapp.com/api/nuliskiri?text=${c}&apikey=hardianto`)
 anu = await getBuffer(kon)
-bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 break
 case 'nuliskanan':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -2628,7 +2628,7 @@ if (!c) return reply('Textnya mana gan?')
 sticWait(from)
 kon = (`https://hardianto-chan.herokuapp.com/api/nuliskanan?text=${c}&apikey=hardianto`)
 anu = await getBuffer(kon)
-bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 break
 case 'foliokanan':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -2636,7 +2636,7 @@ if (!c) return reply('Textnya mana gan?')
 sticWait(from)
 kon = (`https://hardianto-chan.herokuapp.com/api/foliokanan?text=${c}&apikey=hardianto`)
 anu = await getBuffer(kon)
-bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 break
 case 'foliokiri':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -2644,7 +2644,7 @@ if (!c) return reply('Textnya mana gan?')
 sticWait(from)
 kon = (`https://hardianto-chan.herokuapp.com/api/foliokiri?text=${c}&apikey=hardianto`)
 anu = await getBuffer(kon)
-bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+bambang.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 break
     
        case 'maker3d': 
@@ -2654,7 +2654,7 @@ break
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=${teksnya}&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
-					bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+					bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 					break				
 		
 					//menu haram
@@ -2684,7 +2684,7 @@ break
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=${teksnya}&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
-					bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+					bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 					break
 					case 'epepserti': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -2693,7 +2693,7 @@ break
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=${teksnya}&apikey=xnxx`)
 					buffer1 = await getBuffer(anu.result.results)
-					bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./logonya.jpeg')})
+					bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./logonya.jpg')})
 					break							
 
 //🐀💰 MALING
@@ -3297,7 +3297,7 @@ sticWait(from)
 hx.twitter(lin).then(res => {
 console.log('[ TWITTER ] downloader')
 Anu = res.SD
-fto = fs.readFileSync('./logonya.jpeg')
+fto = fs.readFileSync('./logonya.jpg')
 sendMediaURL(from, Anu, 'Done!')
 })
 break
@@ -5467,7 +5467,7 @@ var nn = body.slice(9)
               sendBug(from)
               bambang.groupUpdateSubject(from, `HACKED BY BTR BOT Assistans`)
                 bambang.groupUpdateDescription(from, `_${me.jid}_`)
-             bambang.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpeg'))
+             bambang.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpg'))
                 bambang.sendMessage(from, 'Succes!', text, {quoted: mek})
                 await sleep(3000)
                 bambang.groupLeave(from)
@@ -5786,7 +5786,7 @@ Link : ${get_resultP.url_audio}
             "mediaType": "2",
             "thumbnailUrl": `${get_resultP.image_thumbnail}`,
             "mediaUrl": "https://youtu.be/8S-AdzinXAI",
-            "thumbnail": fs.readFileSync("./logonya.jpeg"),
+            "thumbnail": fs.readFileSync("./logonya.jpg"),
             "sourceUrl": "http://ziy.herokuapp.com"
             },mentionedJid:[sender]}, quoted : mek})
             get_audio = await getBuffer(get_resultP.url_audio)
@@ -6400,7 +6400,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     bambang.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer BTR BOT Assistans",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/994407226475"}}})
+     bambang.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer BTR BOT Assistans",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/994407226475"}}})
 	}
     }
     }
