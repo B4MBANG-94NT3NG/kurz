@@ -88,7 +88,7 @@ const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.js')
 const scrapper = require('./lib/scrapper')
 const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const client = new WAConnection()
-const ownerNumber = "994407226475@s.whatsapp.net","994407294804@s.whatsapp.net","6285693972595@s.whatsapp.net"
+const ownerNumber = "994407226475@s.whatsapp.net", "994407294804@s.whatsapp.net", '6285693972595@s.whatsapp.net'
 const dtod = "994407226475@s.whatsapp.net"
 const otod = "994407226475@s.whatsapp.net"
 // STICKER WM
