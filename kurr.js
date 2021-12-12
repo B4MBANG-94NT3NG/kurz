@@ -1831,7 +1831,7 @@ gbutsan = [
 mhan = await bambang.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
 imageMessage: mhan.message.imageMessage,
-contentText: `${fill}`,`${yoiii}`,
+contentText: `${yoiii}`,
 footerText: `${menu}`,
 buttons: gbutsan,
 headerType: 4
