@@ -1284,6 +1284,9 @@ if(isButton == 'ytm'){
 reply('http://youtube.com/c/Bambang Tri Raharjo')
 }
 
+const fkontak = { 
+                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `0@s.whatsapp.net` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./logonya.jpeg')}}}
+                  
    const sotoy = [
         '🍊 : 🍒 : 🍐',
         '🍒 : 🔔 : 🍊',
