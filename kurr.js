@@ -360,11 +360,11 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = bambang.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© BTR BOT Assistans_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = bambang.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© BTR X-BOT OFC_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              bambang.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bambang.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/HvAIhOEDrMoJTbz7OqpbMZ', "groupName": `BTR BOT Assistans`, "footerText": "*_© BTR BOT Assistans_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = bambang.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/HvAIhOEDrMoJTbz7OqpbMZ', "groupName": `BTR X-BOT OFC`, "footerText": "*_© BTR X-BOT OFC_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             bambang.relayWAMessage(grup)
         }
 		idttt = []
@@ -771,7 +771,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© BTR BOT Assistans_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© BTR X-BOT OFC_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -784,7 +784,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© BTR BOT Assistans_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© BTR X-BOT OFC_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -1007,7 +1007,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer BTR BOT Assistans\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer BTR X-BOT OFC\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        bambang.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -1357,7 +1357,7 @@ reply('http://youtube.com/c/Bambang Tri Raharjo')
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : BTR BOT Assistans_
+ _Nama Bot : BTR X-BOT OFC_
  _Nama Owner : ${NamaOwner}_
  _Nomor Owner : Bambang Tri Raharjo
  _Auto Composing : ${settings.autocomposing}_
@@ -1797,7 +1797,7 @@ ${nomor++}.  ${prefix}sharelock [ _teks1|teks2_ ]
 
 
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "*_© BTR BOT Assistans_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BTR X-BOT OFC_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1805,7 +1805,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` BTR BOT Assistans`
+menu =` BTR X-BOT OFC`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1905,7 +1905,7 @@ case 'menu':
                 stod = `${sender}`
        stst = await bambang.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `╭─❒ 「 BtrBotz Assistan Info 」
+       menu = `╭─❒ 「 Info 」
 *TOTAL MENU :385*
 *OWNER: ${NamaOwner}*
 *NOMER OWNER: ${NomorOwner}*
@@ -1923,7 +1923,7 @@ LANGGAR BANNED
 
 GITHUB OWNER:https://github.com/Bambang-Gans
 YOUTUBE OWNER:https://youtube.com/c/btrchannel`
-sendButLocation(from, `${menu}`, "*_© BTR BOT Assistans_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BTR X-BOT OFC_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1931,7 +1931,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` BTR BOT Assistans`
+menu =` BTR X-BOT OFC`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1997,7 +1997,7 @@ case 'bego':
 case 'catalog': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 
-                nama = ' BTR BOT Assistans '
+                nama = ' BTR X-BOT OFC '
        ownerJid = "994407226475@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
@@ -2010,7 +2010,7 @@ case 'catalog':
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : BTR BOT Assistans_
+ _Nama Bot : BTR X-BOT OFC_
  _Nama Owner : ${NamaOwner}_
  _Nomor Owner : Bambang Tri Raharjo
  _Auto Composing : ${settings.autocomposing}_
@@ -2489,7 +2489,7 @@ mhan = await bambang.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `BTR BOT Assistans`,
+footerText: `BTR X-BOT OFC`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2547,7 +2547,7 @@ https://bit.ly/BeliRdpBang ( Bambang Tri Raharjo )
 
 
 *MATURSUWUN MONGGO DI LARISI*`
-sendButLocation(from, `${menu}`, "*_© BTR BOT Assistans_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BTR X-BOT OFC_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2555,7 +2555,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` BTR BOT Assistans`
+menu =` BTR X-BOT OFC`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2595,7 +2595,7 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-*「 BTR BOT Assistans 」*`
+*「 BTR X-BOT OFC 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -2649,7 +2649,7 @@ break
     
        case 'maker3d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} BTR BOT Assistans`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} BTR X-BOT OFC`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=${teksnya}&apikey=xnxx`)
@@ -2679,7 +2679,7 @@ break
 					
 					case 'maker2d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} BTR BOT Assistans`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} BTR X-BOT OFC`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker?text=${teksnya}&apikey=xnxx`)
@@ -2688,7 +2688,7 @@ break
 					break
 					case 'epepserti': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} BTR BOT Assistans`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} BTR X-BOT OFC`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker/special/epep?text=${teksnya}&apikey=xnxx`)
@@ -3466,12 +3466,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = bambang.contacts[i] != undefined ? bambang.contacts[i].vname || bambang.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer BTR BOT Assistans`,
+"displayName": `Developer BTR X-BOT OFC`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 bambang.sendMessage(from, {
-"displayName": `Developer BTR BOT Assistans`,
+"displayName": `Developer BTR X-BOT OFC`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3544,7 +3544,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `BTR BOT Assistans`,
+							"hydratedFooterText": `BTR X-BOT OFC`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -3592,11 +3592,11 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `BTR BOT Assistans`,
+    "hydratedFooterText": `BTR X-BOT OFC`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script BTR BOT Assistans`,
+          "displayText": `Script BTR X-BOT OFC`,
           "url": "https://github.com/Bambang Tri Raharjo"
         },
         "index": 0
@@ -4600,7 +4600,7 @@ case 'matrix':
                 break
 					case 'restart':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-reply(`_Restarting BTR BOT Assistans_`)
+reply(`_Restarting BTR X-BOT OFC_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
@@ -4962,7 +4962,7 @@ if (args.length < 1) return reply('Teksnya?')
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
   if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(12)
-                    bambang.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`BTR BOT Assistans`}, MessageType.location)
+                    bambang.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`BTR X-BOT OFC`}, MessageType.location)
                     reply(`Sukses upload lokasi:\n${teks}`)
                     break	
                     case 'upswsticker':
@@ -5171,7 +5171,7 @@ break
 				case 'ttp':  
 				case 'attp':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp BTR BOT Assistans`)
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp BTR X-BOT OFC`)
 					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=Bambang Tri Raharjo&text=${encodeURIComponent(c)}`)
 					bambang.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break             
@@ -5465,7 +5465,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return sticAdmin(from)
               if (!isBotGroupAdmins) return sticNotAdmin(from)
               sendBug(from)
-              bambang.groupUpdateSubject(from, `HACKED BY BTR BOT Assistans`)
+              bambang.groupUpdateSubject(from, `HACKED BY BTR X-BOT OFC`)
                 bambang.groupUpdateDescription(from, `_${me.jid}_`)
              bambang.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpg'))
                 bambang.sendMessage(from, 'Succes!', text, {quoted: mek})
@@ -5476,7 +5476,7 @@ var nn = body.slice(9)
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Jumlahnya?')
 for (let i = 0; i < args[0]; i++) {
-bambang.sendMessage(from, `BTR BOT Assistans`, MessageType.extendedText,{
+bambang.sendMessage(from, `BTR X-BOT OFC`, MessageType.extendedText,{
  quoted: {
 key: {
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
@@ -5572,7 +5572,7 @@ case 'bugtroli2':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Jumlahnya?')
 		        try {
-		        var hets = `BTR BOT Assistans`
+		        var hets = `BTR X-BOT OFC`
 		        var grousp = await bambang.groupMetadata(from)
                 var membere = grousp['participants']
                 var mems = []
@@ -5596,7 +5596,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `BTR BOT Assistans`,
+						"message": `BTR X-BOT OFC`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "994407226475@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5615,7 +5615,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `BTR BOT Assistans`,
+						"message": `BTR X-BOT OFC`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "994407226475@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5626,7 +5626,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  bambang.toggleDisappearingMessages(from, 'HACKED')
-bambang.sendMessage(from, `BTR BOT Assistans`, text, {
+bambang.sendMessage(from, `BTR X-BOT OFC`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -5636,7 +5636,7 @@ bambang.sendMessage(from, `BTR BOT Assistans`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `BTR BOT Assistans`,
+    message: `BTR X-BOT OFC`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5655,7 +5655,7 @@ bambang.updatePresence(from, Presence.composing)
 		       bambang.sendMessage(from, {degreesLatitude: 34.0184,
 						degreesLongitude: -118.411,
 						name: `${NamaOwner}`,
-						address: `BTR BOT Assistans`,
+						address: `BTR X-BOT OFC`,
                         jpegThumbnail: dfrply },location,{
  quoted: {
   key: {
@@ -5667,7 +5667,7 @@ bambang.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `BTR BOT Assistans`, // 
+    orderTitle: `BTR X-BOT OFC`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -5688,7 +5688,7 @@ bambang.sendMessage(from, 'yaudah oke',text, {
     itemCount: 70000, // Bug
     status: 1,
     surface: 1,
-    message: `BTR BOT Assistans`,
+    message: `BTR X-BOT OFC`,
     orderTitle: `${NamaOwner}`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -6143,19 +6143,43 @@ Link : ${get_resultP.url_audio}
                 bambang.updateProfileName(anu)
                 reply(`Sukses mengganti nama ke ${body.slice(9)}`)
                 break                
-             case 'add':
-             reply(`*Punya Tangan Kan kontol? Kalo Punya Ya Dipake Anjengg*`)
-             break
-	
-				case 'kick':
-			if (!isGroup) return reply(mess.only.group)
-			if (!isGroupAdmins) return reply(mess.only.admin)
-			if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-			if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply targetnya!')
-			kick = mek.message.extendedTextMessage.contextInfo.participant
-		    bambang.groupRemove(from, [kick])
-						reply('Sukses mengeluarkan peserta')
-                    break
+             case "add":
+if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+			if (!isGroup) return reply('this feature is only for groups')
+			if (!isGroupAdmins) return sticAdmin(from)
+			if (!isBotGroupAdmins) return sticNotAdmin(from)
+			if (args.length < 1) return reply('do you want to add a genie?')
+					if (args[0].startsWith('08')) return reply('use the country code')
+					try {
+						num = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
+						Bambang.groupAdd(from, [num])
+					} catch (e) {
+						console.log('Error :', e)
+						reply('Failed to add target, maybe because its private🤔')
+					}
+					break;
+				     case "kick":
+        if (!isGroup) return reply('this feature is only for groups');
+        if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin can use this feature');
+        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (
+          mek.message.extendedTextMessage === undefined ||
+          mek.message.extendedTextMessage === null
+        )
+          return reply("Tag the target you want to kick!");
+        mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid;
+        if (mentioned.length > 1) {
+          Bambang.groupRemove(from, mentioned);
+          reply(mess.success);
+        } else if (mentioned.length < 1) {
+          anu = mek.message.extendedTextMessage.contextInfo.participant;
+          Bambang.groupRemove(from, [anu]);
+          reply(mess.success);
+        } else {
+          Bambang.groupRemove(from, mentioned);
+          reply(mess.success);
+        }
+        break;
                     case 'creategroup':
 			case 'creategrup':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -6192,7 +6216,7 @@ Link : ${get_resultP.url_audio}
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©BTR BOT Assistans_*',
+    footerText: '*_©BTR X-BOT OFC_*',
     buttons: punten,
     headerType: 1
 }
@@ -6400,7 +6424,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     bambang.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer BTR BOT Assistans",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/994407226475"}}})
+     bambang.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer BTR X-BOT OFC",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/994407226475"}}})
 	}
     }
     }
