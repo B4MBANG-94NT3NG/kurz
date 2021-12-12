@@ -5828,66 +5828,93 @@ Link : ${get_resultP.url_audio}
 					exif.create(namaPack, authorPack)
 					await reply('Done gan')
 				break
-				case 'sticker':
-					case 'stiker':
-					case 's':
-              if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-							const media = await bambang.downloadAndSaveMediaMessage(encmedia, `./sticker/1.webp`)
-							await ffmpeg(`${media}`)
-									.input(media)
-									.on('start', function (cmd) {
-										console.log(`Started : ${cmd}`)
-									})
-									.on('error', function (err) {
-										console.log(`Error : ${err}`)
-										fs.unlinkSync(media)
-										reply(mess.error.api)
-									})
-									.on('end', function () {
-										console.log('Finish')
-										exec(`webpmux -set exif ./sticker/data.exif ./sticker/${sender}.webp -o ./sticker/${sender}.webp`, async (error) => {
-											if (error) return reply(mess.error.api)
-											bambang.sendMessage(from, fs.readFileSync(`./sticker/1.webp`), sticker, {quoted: mek})
-											fs.unlinkSync(media)	
-											fs.unlinkSync(`./sticker/1.webp`)	
-										})
-									})
-									.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
-									.toFormat('webp')
-									.save(`./sticker/1.webp`)
-						} else if ((isMedia && mek.message.videoMessage.fileLength < 10000000 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.fileLength < 10000000)) {
-							const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-							const media = await bambang.downloadAndSaveMediaMessage(encmedia, `./sticker/1.webp`)
-							sticWait(from)
-								await ffmpeg(`${media}`)
-									.inputFormat(media.split('.')[4])
-									.on('start', function (cmd) {
-										console.log(`Started : ${cmd}`)
-									})
-									.on('error', function (err) {
-										console.log(`Error : ${err}`)
-										fs.unlinkSync(media)
-										tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-										reply(mess.error.api)
-									})
-									.on('end', function () {
-										console.log('Finish')
-										exec(`webpmux -set exif ./sticker/data.exif ./sticker/1.webp -o ./sticker/1.webp`, async (error) => {
-											if (error) return reply(mess.error.api)
-											bambang.sendMessage(from, fs.readFileSync(`./sticker/1.webp`), sticker, {quoted: mek})
-											fs.unlinkSync(media)
-											fs.unlinkSync(`./sticker/1.webp`)
-										})
-									})
-									.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
-									.toFormat('webp')
-									.save(`./sticker/1.webp`)
-						} else {
-							reply(`Kirim gambar/video dengan caption ${prefix}sticker atau tag gambar/video yang sudah dikirim\nNote : Durasi video maximal 10 detik`)
-						}
-						break
+      case "sticker":
+      case "stiker":
+      case "sg":
+      case "s":
+        if (
+          ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
+          args.length == 0
+        ) {
+          const encmedia = isQuotedImage
+            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
+                .extendedTextMessage.contextInfo
+            : mek;
+          const media = await bambang.downloadAndSaveMediaMessage(encmedia);
+          ran = "666.webp";
+          await ffmpeg(`./${media}`)
+            .input(media)
+            .on("start", function (cmd) {
+              console.log(`Started : ${cmd}`);
+            })
+            .on("error", function (err) {
+              console.log(`Error : ${err}`);
+              fs.unlinkSync(media);
+              reply("error");
+            })
+            .on("end", function () {
+              console.log("Finish");
+              bambang.sendMessage(from, fs.readFileSync(ran), sticker, {
+                quoted: mek,
+              });
+              fs.unlinkSync(media);
+              fs.unlinkSync(ran);
+            })
+            .addOutputOptions([
+              `-vcodec`,
+              `libwebp`,
+              `-vf`,
+              `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`,
+            ])
+            .toFormat("webp")
+            .save(ran);
+        } else if (
+          ((isMedia && mek.message.videoMessage.seconds < 11) ||
+            (isQuotedVideo &&
+              mek.message.extendedTextMessage.contextInfo.quotedMessage
+                .videoMessage.seconds < 11)) &&
+          args.length == 0
+        ) {
+          const encmedia = isQuotedVideo
+            ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
+                .extendedTextMessage.contextInfo
+            : mek;
+          const media = await bambang.downloadAndSaveMediaMessage(encmedia);
+          ran = "999.webp";
+          reply(mess.wait);
+          await ffmpeg(`./${media}`)
+            .inputFormat(media.split(".")[1])
+            .on("start", function (cmd) {
+              console.log(`Started : ${cmd}`);
+            })
+            .on("error", function (err) {
+              console.log(`Error : ${err}`);
+              fs.unlinkSync(media);
+              tipe = media.endsWith(".mp4") ? "video" : "gif";
+              reply(`Failed, at the time of converting ${tipe} to sticker`);
+            })
+            .on("end", function () {
+              console.log("Finish");
+              bambang.sendMessage(from, fs.readFileSync(ran), sticker, {
+                quoted: mek,
+              });
+              fs.unlinkSync(media);
+              fs.unlinkSync(ran);
+            })
+            .addOutputOptions([
+              `-vcodec`,
+              `libwebp`,
+              `-vf`,
+              `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`,
+            ])
+            .toFormat("webp")
+            .save(ran);
+        } else {
+          reply(
+            `Send a picture with a caption ${prefix}sticker\nVideo Sticker Duration 1-9 Seconds`
+          );
+        }
+        break;
 					case 'stickerwm':
 					case 'swm':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
@@ -6336,6 +6363,7 @@ await bambang.sendMessage(from, btngrass, MessageType.buttonsMessage, {quoted: f
       
       omkeh = await getBuffer(`https://ojankyaa.000webhostapp.com/sound/${command}.mp3`)
       bambang.sendMessage(from, omkeh, MessageType.audio, { quoted: mek, mimetype: 'audio/mp4', ptt: true })
+      break;
 				case 'listrespon':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
