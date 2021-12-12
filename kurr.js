@@ -1353,6 +1353,9 @@ const fkontak = {
                 stod = `${sender}`
        stst = await bambang.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
+				get = await fetchJson(`https://ziy.herokuapp.com/api/hitungmundur?bulan=12&tanggal=31`)
+          ini = get.result
+yoiii =`𝐇𝐢𝐭𝐮𝐧𝐠 𝐌𝐮𝐧𝐝𝐮𝐫 𝐓𝐚𝐡𝐮𝐧 𝐁𝐚𝐫𝐮 ࿋\n${ini}`
        menu = `╭─❒ 「 Bot Info 」 ❒
  _Creator : *Bambang Tri Raharjo*
  _Battery : ${baterai.battery}_
@@ -1828,7 +1831,7 @@ gbutsan = [
 mhan = await bambang.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
 imageMessage: mhan.message.imageMessage,
-contentText: `${fill}`,
+contentText: `${yoiii}`,`${fill}`,
 footerText: `${menu}`,
 buttons: gbutsan,
 headerType: 4
@@ -5926,13 +5929,13 @@ Link : ${get_resultP.url_audio}
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          media = await Bambang.downloadAndSaveMediaMessage(encmedia);
+          media = await bambang.downloadAndSaveMediaMessage(encmedia);
           await createExif(a, b);
           out = getRandom(".webp");
           ffmpeg(media)
             .on("error", (e) => {
               console.log(e);
-              Bambang.sendMessage(from, "There is an error", "conversation", {
+              bambang.sendMessage(from, "There is an error", "conversation", {
                 quoted: mek,
               });
               fs.unlinkSync(media);
@@ -5947,7 +5950,7 @@ Link : ${get_resultP.url_audio}
                 "-o",
                 _out,
               ]).on("exit", () => {
-                Bambang.sendMessage(
+                bambang.sendMessage(
                   from,
                   fs.readFileSync(_out),
                   "stickerMessage",
@@ -5977,7 +5980,7 @@ Link : ${get_resultP.url_audio}
             ? JSON.parse(JSON.stringify(mek).replace("quotedM", "m")).message
                 .extendedTextMessage.contextInfo
             : mek;
-          const media = await Bambang.downloadAndSaveMediaMessage(encmedia);
+          const media = await bambang.downloadAndSaveMediaMessage(encmedia);
           pe = args.join("");
           var a = pe.split("|")[0];
           var b = pe.split("|")[1];
@@ -5986,7 +5989,7 @@ Link : ${get_resultP.url_audio}
           ffmpeg(media)
             .on("error", (e) => {
               console.log(e);
-              Bambang.sendMessage(from, "There is an error", "conversation", {
+              bambang.sendMessage(from, "There is an error", "conversation", {
                 quoted: mek,
               });
               fs.unlinkSync(media);
@@ -6001,7 +6004,7 @@ Link : ${get_resultP.url_audio}
                 "-o",
                 _out,
               ]).on("exit", () => {
-                Bambang.sendMessage(
+                bambang.sendMessage(
                   from,
                   fs.readFileSync(_out),
                   "stickerMessage",
