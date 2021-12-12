@@ -5823,7 +5823,7 @@ Link : ${get_resultP.url_audio}
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-							const media = await bambang.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
+							const media = await bambang.downloadAndSaveMediaMessage(encmedia, `./sticker/1.webp`)
 							await ffmpeg(`${media}`)
 									.input(media)
 									.on('start', function (cmd) {
@@ -5838,14 +5838,14 @@ Link : ${get_resultP.url_audio}
 										console.log('Finish')
 										exec(`webpmux -set exif ./sticker/data.exif ./sticker/${sender}.webp -o ./sticker/${sender}.webp`, async (error) => {
 											if (error) return reply(mess.error.api)
-											bambang.sendMessage(from, fs.readFileSync(`./sticker/${sender}.webp`), sticker, {quoted: mek})
+											bambang.sendMessage(from, fs.readFileSync(`./sticker/1.webp`), sticker, {quoted: mek})
 											fs.unlinkSync(media)	
-											fs.unlinkSync(`./sticker/${sender}.webp`)	
+											fs.unlinkSync(`./sticker/1.webp`)	
 										})
 									})
 									.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
 									.toFormat('webp')
-									.save(`./sticker/${sender}.webp`)
+									.save(`./sticker/1.webp`)
 						} else if ((isMedia && mek.message.videoMessage.fileLength < 10000000 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.fileLength < 10000000)) {
 							const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await bambang.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
