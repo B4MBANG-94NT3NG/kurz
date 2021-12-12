@@ -88,9 +88,9 @@ const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.js')
 const scrapper = require('./lib/scrapper')
 const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const client = new WAConnection()
-const ownerNumber = ["994407226475@s.whatsapp.net", "994407294804@s.whatsapp.net", "6285693972595@s.whatsapp.net"];
-const dtod = "994407226475@s.whatsapp.net"
-const otod = "994407226475@s.whatsapp.net"
+const ownerNumber = ["6282313021398@s.whatsapp.net", "994407294804@s.whatsapp.net", "6285693972595@s.whatsapp.net"];
+const dtod = "6282313021398@s.whatsapp.net"
+const otod = "6282313021398@s.whatsapp.net"
 // STICKER WM
 //const exect = require('await-exec')
 //const webp = require('webp-converter')
@@ -1021,7 +1021,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        bambang.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			bambang.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/994407226475`}}})
+			bambang.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/6282313021398`}}})
 		}
 		function monospace(string) {
 return '```' + string + '```'
@@ -1362,7 +1362,7 @@ const fkontak = {
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
  _Nama Bot : BTR X-BOT OFC_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : Bambang Tri Raharjo
+ _Nomor Owner : +6282313021298
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
@@ -1797,7 +1797,18 @@ ${nomor++}.  ${prefix}q [ _reply message_ ]
 ${nomor++}.  ${prefix}getcaption [ _reply message_ ]
 ${nomor++}.  ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
 ${nomor++}.  ${prefix}sharelock [ _teks1|teks2_ ]
-
+─❒ SOUND MENU
+${nomor++}.  ${prefix}sound1
+${nomor++}.  ${prefix}sound2
+${nomor++}.  ${prefix}sound3
+${nomor++}.  ${prefix}sound4
+${nomor++}.  ${prefix}sound5
+${nomor++}.  ${prefix}sound6
+${nomor++}.  ${prefix}sound7
+${nomor++}.  ${prefix}sound8
+${nomor++}.  ${prefix}sound9
+${nomor++}.  ${prefix}sound10
+sound menu ada 1-75 Jadi Banyak:) 
 
 └─────────────────❒`
 sendButLocation(from, `${menu}`, "*_© BTR X-BOT OFC_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},{buttonId:`sc`,buttonText:{displayText:'SEWA BOT'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
@@ -2001,7 +2012,7 @@ case 'catalog':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 
                 nama = ' BTR X-BOT OFC '
-       ownerJid = "994407226475@s.whatsapp.net"
+       ownerJid = "6282313021398@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
        stst = await bambang.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -3655,7 +3666,7 @@ case 'chiisaihentai':
                 case 'animebellybutton':
                 case 'hentai4everyone':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=Bambang Tri Raharjo`)
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?0842b5260da99b7a62d64ab3`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await bambang.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'✗✗✗ Bambang Tri Raharjo', imageMessage: imageMsg,
@@ -3666,7 +3677,7 @@ case 'chiisaihentai':
                     case 'darkjokes':
                     case 'meme':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-              buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=Bambang Tri Raharjo`)
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?0842b5260da99b7a62d64ab3`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await bambang.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'✗✗✗ Bambang Tri Raharjo', imageMessage: imageMsg,
@@ -3716,7 +3727,7 @@ case 'bj':
                 case 'kemonomimi':
                 case 'nsfw_avatar':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-               buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=Bambang Tri Raharjo`)
+               buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?0842b5260da99b7a62d64ab3`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await bambang.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'✗✗✗ Bambang Tri Raharjo', imageMessage: imageMsg,
@@ -3778,7 +3789,7 @@ case 'blackpink':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     ini_txt = args.join(" ")
-                    getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=Bambang Tri Raharjo&text=${ini_txt}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?0842b5260da99b7a62d64ab3&text=${ini_txt}`).then((gambar) => {
                         bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
                     })
                     break
@@ -3796,7 +3807,7 @@ case 'blackpink':
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     txt1 = args[0]
                     txt2 = args[1]
-                    getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=Bambang Tri Raharjo&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`).then((gambar) => {
                         bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
                     })
                     break
@@ -3807,7 +3818,7 @@ case 'neko':
        case 'wallnime':
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
               reply(mess.wait)
-              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=Bambang Tri Raharjo`)
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?0842b5260da99b7a62d64ab3`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await bambang.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'✗✗✗ Bambang Tri Raharjo', imageMessage: imageMsg,
@@ -3820,7 +3831,7 @@ case 'neko':
        case 'hentai':
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
               reply(mess.wait)
-              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=Bambang Tri Raharjo`)
+              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?0842b5260da99b7a62d64ab3`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await bambang.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
               buttonsMessage = {footerText:'✗✗✗ Bambang Tri Raharjo', imageMessage: imageMsg,
@@ -3858,7 +3869,7 @@ case 'neko':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     ini_txt = args.join(" ")
-                    getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=Bambang Tri Raharjo&text=${ini_txt}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?0842b5260da99b7a62d64ab3&text=${ini_txt}`).then((gambar) => {
                         bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
                     })
                     break
@@ -3869,7 +3880,7 @@ case 'neko':
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     txt1 = args[0]
                     txt2 = args[1]
-                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=Bambang Tri Raharjo&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`).then((gambar) => {
                         bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
                     })
                     break
@@ -3908,7 +3919,7 @@ case 'neko':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang xd`)
                     ini_txt = args.join(" ")
-                    getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=Bambang Tri Raharjo&text=${ini_txt}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?0842b5260da99b7a62d64ab3&text=${ini_txt}`).then((gambar) => {
                         bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol}) 
                     })
                     break
@@ -3917,7 +3928,7 @@ case 'neko':
        
        case 'tebakgambar':
 if (tebakgambar.hasOwnProperty(sender.split('@')[0])) return reply("Selesein yg sebelumnya dulu atuh")
-  get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/gambar?apikey=Bambang Tri Raharjo`)
+  get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/gambar?0842b5260da99b7a62d64ab3`)
 get_result = get_result.result
 ini_image = get_result.image
 jawaban = get_result.answer
@@ -3951,7 +3962,7 @@ break
        if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
               if (isGame(sender, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
               if (caklontong.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada soal yg belum terjawab")
-              get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/caklontong?apikey=Bambang Tri Raharjo`)
+              get_result = await fetchJson(`https://api.lolhuman.xyz/api/tebak/caklontong?0842b5260da99b7a62d64ab3`)
               get_result = get_result.result
               jawaban = get_result.answer
               kisi_kisi = jawaban.replace(/[b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z]/gi, '_')
@@ -5175,7 +5186,7 @@ break
 				case 'attp':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp BTR X-BOT OFC`)
-					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=Bambang Tri Raharjo&text=${encodeURIComponent(c)}`)
+					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?0842b5260da99b7a62d64ab3&text=${encodeURIComponent(c)}`)
 					bambang.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break             
 				case 'semoji':
@@ -5601,7 +5612,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"surface": "CATALOG",
 						"message": `BTR X-BOT OFC`,
 						"orderTitle": `${NamaOwner}`,
-						"sellerJid": "994407226475@s.whatsapp.net",
+						"sellerJid": "6282313021398@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
 					}}}})
 		        }
@@ -5620,7 +5631,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"surface": "CATALOG",
 						"message": `BTR X-BOT OFC`,
 						"orderTitle": `${NamaOwner}`,
-						"sellerJid": "994407226475@s.whatsapp.net",
+						"sellerJid": "6282313021398@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
 					}}}})
 		        }
@@ -6241,6 +6252,90 @@ await bambang.sendMessage(from, btngrass, MessageType.buttonsMessage, {quoted: f
                 deleteCommands(body.slice(11), commandsDB)
 				reply(`Sukses menghapus respon ${body.slice(11)}`)
 				break
+//sound
+      case 'sound1':
+      case 'sound2':
+      case 'sound3':
+      case 'sound4':
+      case 'sound5':
+      case 'sound6':
+      case 'sound7':
+      case 'sound8':
+      case 'sound9':
+      case 'sound10':
+      case 'sound11':
+      case 'sound12':
+      case 'sound13':
+      case 'sound14':
+      case 'sound15':
+      case 'sound16':
+      case 'sound17':
+      case 'sound18':
+      case 'sound19':
+      case 'sound20':
+      case 'sound21':
+      case 'sound22':
+      case 'sound23':
+      case 'sound24':
+      case 'sound25':
+      case 'sound26':
+      case 'sound27':
+      case 'sound28':
+      case 'sound29':
+      case 'sound30':
+      case 'sound31':
+      case 'sound32':
+      case 'sound33':
+      case 'sound34':
+      case 'sound35':
+      case 'sound36':
+      case 'sound37':
+      case 'sound38':
+      case 'sound39':
+      case 'sound40':
+      case 'sound41':
+      case 'sound42':
+      case 'sound43':
+      case 'sound44':
+      case 'sound45':
+      case 'sound46':
+      case 'sound47':
+      case 'sound48':
+      case 'sound49':
+      case 'sound50':
+      case 'sound51':
+      case 'sound52':
+      case 'sound53':
+      case 'sound54':
+      case 'sound55':
+      case 'sound56':
+      case 'sound57':
+      case 'sound58':
+      case 'sound59':
+      case 'sound60':
+      case 'sound61':
+      case 'sound62':
+      case 'sound63':
+      case 'sound64':
+      case 'sound65':
+      case 'sound66':
+      case 'sound67':
+      case 'sound68':
+      case 'sound69':
+      case 'sound70':
+      
+      omkeh = await getBuffer(`https://hansxd.nasihosting.com/sound/${command}.mp3`)
+      bambang.sendMessage(from, omkeh, MessageType.audio, { quoted: mek, mimetype: 'audio/mp4', ptt: true })
+          break
+          case 'sound71':
+      case 'sound71':
+      case 'sound72':
+      case 'sound73':
+      case 'sound74':
+      case 'sound75':
+      
+      omkeh = await getBuffer(`https://ojankyaa.000webhostapp.com/sound/${command}.mp3`)
+      bambang.sendMessage(from, omkeh, MessageType.audio, { quoted: mek, mimetype: 'audio/mp4', ptt: true })
 				case 'listrespon':
               if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 teks = `\`\`\`「 LIST RESPON  」\`\`\`\n\n`
@@ -6427,7 +6522,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     bambang.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer BTR X-BOT OFC",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/994407226475"}}})
+     bambang.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer BTR X-BOT OFC",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6282313021398"}}})
 	}
     }
     }
