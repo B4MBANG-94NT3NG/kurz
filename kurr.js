@@ -1412,7 +1412,7 @@ ${nomor++}.  ${prefix}dakjal
 ${nomor++}.  ${prefix}horny
 ${nomor++}.  ${prefix}wibu
 ${nomor++}.  ${prefix}puki
-${nomor++}.  ${prefix}pantexpantek
+${nomor++}.  ${prefix}pantex
 │
 ─❒ OWNER
 ${nomor++}.  ${prefix}autorespon [ _on/off_ ]
@@ -1797,7 +1797,7 @@ ${nomor++}.  ${prefix}sharelock [ _teks1|teks2_ ]
 
 
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "*_© BTR X-BOT OFC_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BTR X-BOT OFC_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},{buttonId:`sc`,buttonText:{displayText:'SEWA BOT'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
