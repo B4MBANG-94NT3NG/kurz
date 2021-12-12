@@ -128,11 +128,12 @@ case 23: waktoonyabro = `Selamat Malam Owner..🌃`; break;
 var tampilUcapan = '' + waktoonyabro;
 
 //nocache
-require('./kurr.js')
+require('./bambang.js')
+nocache("./bambang.js", (module) => console.log(`${module} masih dalam pemantauan Wibu!`));
 
 const starts = async (kurr = new WAConnection()) => {
-	kurr.logger.level = 'warn'
-	kurr.version = [2, 2140, 12]
+	bambang.logger.level = 'warn'
+	bambang.version = [2, 2140, 12]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
 	console.log(color(figlet.textSync('KurzBotz Assistan', {
 		font: 'Standard',
@@ -145,31 +146,31 @@ const starts = async (kurr = new WAConnection()) => {
 console.log(color('> WITA ','silver'), color(`${wita}`,'mediumseagreen'))
 console.log(color('> WIT ','silver'), color(`${wit}`,'mediumseagreen'))
 console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen'))
-	kurr.browserDescription = [ 'Kurz Botz Asisstan', 'ubuntu', '3.0' ]
+	bambang.browserDescription = [ 'Kurz Botz Asisstan', 'ubuntu', '3.0' ]
 
-	kurr.on('qr', () => {
+	bambang.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR NYA'))
 })
-	kurr.on('credentials-updated', () => {
-		fs.writeFileSync('./session.json', JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Kurz Botz Asisstan Loading...')
+	bambang.on('credentials-updated', () => {
+		fs.writeFileSync('./session.json', JSON.stringify(bambang.base64EncodedAuthInfo(), null, '\t'))
+		info('2', 'Asisstan Loading...')
 	})
-	fs.existsSync('./session.json') && kurr.loadAuthInfo('./session.json')
-	kurr.on('connecting', () => {
+	fs.existsSync('./session.json') && bambang.loadAuthInfo('./session.json')
+	bambang.on('connecting', () => {
 		start('2', 'CONNECT')
 	})
-	kurr.on('open', () => {
+	bambang.on('open', () => {
 		success('2', 'Tersambung')
 	})
     
 	// session
-	await kurr.connect({
+	await bambang.connect({
 		timeoutMs: 30 * 1000
 	})
-	fs.writeFileSync(`./session.json`, JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
+	fs.writeFileSync(`./session.json`, JSON.stringify(bambang.base64EncodedAuthInfo(), null, '\t'))
 
 	// Baterai
-	kurr.on('CB:action,,battery', json => {
+	bambang.on('CB:action,,battery', json => {
 		global.batteryLevelStr = json[2][0][1].value
 		global.batterylevel = parseInt(batteryLevelStr)
 		baterai = batterylevel
@@ -179,7 +180,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 		console.log('Baterai : ' + batterylevel + '%')
 	})
 	global.batrei = global.batrei ? global.batrei : []
-	kurr.on('CB:action,,battery', json => {
+	bambang.on('CB:action,,battery', json => {
 		const batteryLevelStr = json[2][0][1].value
 		const batterylevel = parseInt(batteryLevelStr)
 		global.batrei.push(batterylevel)
@@ -188,7 +189,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 	// Send Message
 const sendButImage = async (id, text1, desc1, gam1, but = [], options = {}) => {
       kma = gam1;
-      mhan = await kurr.prepareMessage(id, kma, MessageType.image);
+      mhan = await bambang.prepareMessage(id, kma, MessageType.image);
        buttonMessages = {
         imageMessage: mhan.message.imageMessage,
         contentText: text1,
@@ -196,11 +197,11 @@ const sendButImage = async (id, text1, desc1, gam1, but = [], options = {}) => {
         buttons: but,
         headerType: 4,
       }
-      kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+      bambang.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
     }
 const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
-mhan = await kurr.prepareMessage(id, kma, location)
+mhan = await bambang.prepareMessage(id, kma, location)
 const buttonMessages = {
 locationMessage: mhan.message.locationMessage,
 contentText: text1,
@@ -208,7 +209,7 @@ footerText: desc1,
 buttons: but,
 headerType: 6
 }
-kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+bambang.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
    // owner
 
@@ -217,15 +218,15 @@ kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
     
 
-kurr.on("group-update", async (anu) => {
+bambang.on("group-update", async (anu) => {
 
-    metdata = await kurr.groupMetadata(anu.jid);
+    metdata = await bambang.groupMetadata(anu.jid);
 
     if (anu.announce == "false") {
 
       teks = `- [ Group Opened ] -\n\n_Group telah dibuka oleh admin_\n_Sekarang semua member bisa mengirim pesan_`;
 
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
+      bambang.sendMessage(metdata.id, teks, MessageType.text);
 
       console.log(`- [ Group Opened ] - In ${metdata.subject}`);
 
@@ -233,7 +234,7 @@ kurr.on("group-update", async (anu) => {
 
       teks = `- [ Group Closed ] -\n\n_Group telah ditutup oleh admin_\n_Sekarang hanya admin yang dapat mengirim pesan_`;
 
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
+      bambang.sendMessage(metdata.id, teks, MessageType.text);
 
       console.log(`- [ Group Closed ] - In ${metdata.subject}`);
 
@@ -247,7 +248,7 @@ kurr.on("group-update", async (anu) => {
 
       }\n� Deskripsi Baru : ${anu.desc}`;
 
-      kurr.sendMessage(metdata.id, teks, MessageType.text, {
+      bambang.sendMessage(metdata.id, teks, MessageType.text, {
 
         contextInfo: { mentionedJid: [tag] },
 
@@ -259,7 +260,7 @@ kurr.on("group-update", async (anu) => {
 
       teks = `- [ Group Setting Change ] -\n\nEdit Group info telah dibuka untuk member\nSekarang semua member dapat mengedit info Group Ini`;
 
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
+      bambang.sendMessage(metdata.id, teks, MessageType.text);
 
       console.log(`- [ Group Setting Change ] - In ${metdata.subject}`);
 
@@ -267,7 +268,7 @@ kurr.on("group-update", async (anu) => {
 
       teks = `- [ Group Setting Change ] -\n\nEdit Group info telah ditutup untuk member\nSekarang hanya admin group yang dapat mengedit info Group Ini`;
 
-      kurr.sendMessage(metdata.id, teks, MessageType.text);
+      bambang.sendMessage(metdata.id, teks, MessageType.text);
 
       console.log(`- [ Group Setting Change ] - In ${metdata.subject}`);
 
@@ -275,11 +276,11 @@ kurr.on("group-update", async (anu) => {
 
   });
 
-kurr.on('group-participants-update', async (anu) => {
+bambang.on('group-participants-update', async (anu) => {
 
 	try {
 
-		mdata = await kurr.groupMetadata(anu.jid)
+		mdata = await bambang.groupMetadata(anu.jid)
 
 		console.log(anu)
 
@@ -289,7 +290,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 			try {
 
-				ppUrl = await kurr.getProfilePicture(num)
+				ppUrl = await bambang.getProfilePicture(num)
 
 				} catch {
 
@@ -311,7 +312,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 			try {
 
-				ppUrl = await kurr.getProfilePicture(num)
+				ppUrl = await bambang.getProfilePicture(num)
 
 				} catch {
 
@@ -331,7 +332,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 			try {
 
-				ppUrl = await kurr.getProfilePicture(num)
+				ppUrl = await bambang.getProfilePicture(num)
 
 				} catch {
 
@@ -351,7 +352,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 			try {
 
-				ppUrl = await kurr.getProfilePicture(num)
+				ppUrl = await bambang.getProfilePicture(num)
 
 				} catch {
 
@@ -375,18 +376,18 @@ kurr.on('group-participants-update', async (anu) => {
 
 		})
 		
-kurr.on('group-update', async (anu) => {
+bambang.on('group-update', async (anu) => {
 	try { 
 	console.log(anu)
 	from = anu.jid
-	group = await kurr.groupMetadata(anu.jid)
+	group = await bambang.groupMetadata(anu.jid)
 	if (!anu.desc == '') {
 		tag = anu.descOwner.replace('@c.us', '@s.whatsapp.net')
-		kurr.sendMessage(group.id, `Group Description Change\n\n• Admin : @${tag.split("@")[0]}\n• Group : ${group.subject}\n• descTime : ${anu.descTime}\n• descID : ${anu.descId}\n• descNew : ${anu.desc}`, MessageType.text, {contextInfo: { mentionedJid: [tag]}})
+		bambang.sendMessage(group.id, `Group Description Change\n\n• Admin : @${tag.split("@")[0]}\n• Group : ${group.subject}\n• descTime : ${anu.descTime}\n• descID : ${anu.descId}\n• descNew : ${anu.desc}`, MessageType.text, {contextInfo: { mentionedJid: [tag]}})
 		} else if (!anu.restrict == '') {
-			kurr.sendMessage(group.id, `Group Restrict Change\n\n• Group : ${group.subject}\n• groupId : ${anu.jid}\n• restrict : ${anu.restrict}`, MessageType.text)
+			bambang.sendMessage(group.id, `Group Restrict Change\n\n• Group : ${group.subject}\n• groupId : ${anu.jid}\n• restrict : ${anu.restrict}`, MessageType.text)
 			} else if (!anu.announce == '') {
-				kurr.sendMessage(group.id, `Group Announce Change\n\n• Group : ${group.subject}\n• groupId : ${anu.jid}\n• announce : ${anu.announce}`, MessageType.text)
+				bambang.sendMessage(group.id, `Group Announce Change\n\n• Group : ${group.subject}\n• groupId : ${anu.jid}\n• announce : ${anu.announce}`, MessageType.text)
 				} 
 					} catch(err) {
 						e = String(err)
@@ -394,8 +395,8 @@ kurr.on('group-update', async (anu) => {
 						}
 
 	})
-    kurr.on('chat-update', async (message) => {
-        require('./kurr.js')(kurr, message)
+    bambang.on('chat-update', async (message) => {
+        require('./bambang.js')(kurr, message)
         ownerNumber = ["6282313021398@s.whatsapp.net","6282313021398@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
         dtod = "6282313021398@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
