@@ -6152,7 +6152,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					if (args[0].startsWith('08')) return reply('use the country code')
 					try {
 						num = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
-						Bambang.groupAdd(from, [num])
+						bambang.groupAdd(from, [num])
 					} catch (e) {
 						console.log('Error :', e)
 						reply('Failed to add target, maybe because its private🤔')
@@ -6169,14 +6169,14 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
           return reply("Tag the target you want to kick!");
         mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid;
         if (mentioned.length > 1) {
-          Bambang.groupRemove(from, mentioned);
+          bambang.groupRemove(from, mentioned);
           reply(mess.success);
         } else if (mentioned.length < 1) {
           anu = mek.message.extendedTextMessage.contextInfo.participant;
-          Bambang.groupRemove(from, [anu]);
+          bambang.groupRemove(from, [anu]);
           reply(mess.success);
         } else {
-          Bambang.groupRemove(from, mentioned);
+          bambang.groupRemove(from, mentioned);
           reply(mess.success);
         }
         break;
