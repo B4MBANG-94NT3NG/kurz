@@ -3758,58 +3758,399 @@ case 'loli':
               break
 //
 case 'blackpink':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'neon':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(7)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'greenneon':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'advanceglow':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(14)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'futureneon':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(13)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'sandwriting':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(14)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'sandsummer':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(13)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'sandengraved':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(15)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'metaldark':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'neonlight':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'holographic':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(14)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'text1917':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(11)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'minion':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(9)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'deluxesilver':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(15)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'newyearcard':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(14)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'bloodfrosted':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(15)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'halloween':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'jokerlogo':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'fireworksparkle':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(18)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'natureleaves':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(15)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'bokeh':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(8)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'toxic':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(8)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'strawberry':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(13)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'box3d':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(8)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'roadwarning':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(13)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'breakwall':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'icecold':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(9)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'luxury':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(9)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'cloud':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(8)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'summersand':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(12)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'horrorblood':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(14)
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               buffer1 = await getBuffer(anu.result.results)
+                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'thunder':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
-                    ini_txt = args.join(" ")
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
+                   F = body.slice(10)
+                   reply(mess.wait)
                anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
                 case 'pornhub':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(10)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'glitch':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(9)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'avenger':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(10)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'space':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(8)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'ninjalogo':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(12)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'marvelstudio':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(15)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'lionlogo':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(11)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'wolflogo':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(11)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'steel3d':
+                                  if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(10)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               buffer1 = await getBuffer(anu.result.results)
+               bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'wallgravity':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
-                    txt1 = args[0]
-                    txt2 = args[1]
+                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(13)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
                anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
@@ -3873,19 +4214,40 @@ case 'neko':
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`).then((gambar) => {
-                        bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
-                    })
+                        bambang.sendMessage(from, gambar, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
                 case 'arcade8bit':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(13)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+                    buffer1 = await getBuffer(anu.result.results)
+                        bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'battlefield4':
+                if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
+if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(15)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+                    buffer1 = await getBuffer(anu.result.results)
+                        bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
+                    break
                 case 'pubg':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
-                    txt1 = args[0]
-                    txt2 = args[1]
-                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`).then((gambar) => {
-                        bambang.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
-                    })
+if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang&lol*`)
+                   var F = body.slice(7)
+				   var F1 = F.split("|")[0];
+				   var F2 = F.split("|")[1]; 
+                   reply(mess.wait)
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+                    buffer1 = await getBuffer(anu.result.results)
+                        bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
 
                     // Ephoto 360 //
