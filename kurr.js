@@ -3793,8 +3793,7 @@ case 'blackpink':
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     ini_txt = args.join(" ")
                myp = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?0842b5260da99b7a62d64ab3&text=${ini_txt}`)
-                bambang.sendMessage(from, myp, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
-                    })
+                bambang.sendMessage(from, myp, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
                 case 'pornhub':
                 case 'glitch':
@@ -3811,8 +3810,7 @@ case 'blackpink':
                     txt1 = args[0]
                     txt2 = args[1]
                myp = await getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`).then((gambar) => {
-               bambang.sendMessage(from, myp, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Bambang Tri Raharjo`, quoted : ftrol})
-                    })
+               bambang.sendMessage(from, myp, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
 case 'neko':
        case 'kanna':
