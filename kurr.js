@@ -3792,7 +3792,7 @@ case 'blackpink':
                 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
                     if (args.length == 0) return reply(`Example: ${prefix + command} bambang Xd`)
                     ini_txt = args.join(" ")
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_text}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
