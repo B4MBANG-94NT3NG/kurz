@@ -3762,7 +3762,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3771,7 +3771,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(7)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3780,7 +3780,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3789,7 +3789,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(14)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3798,7 +3798,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(13)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3807,7 +3807,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(14)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3816,7 +3816,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(13)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3825,7 +3825,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(15)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3834,7 +3834,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3843,7 +3843,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3852,7 +3852,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(14)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3861,7 +3861,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(11)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3870,7 +3870,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(9)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3879,7 +3879,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(15)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3888,7 +3888,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(14)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3897,7 +3897,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(15)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3906,7 +3906,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3915,7 +3915,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3924,7 +3924,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(18)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3933,7 +3933,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(15)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3942,7 +3942,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(8)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3951,7 +3951,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(8)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3960,7 +3960,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(13)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3969,7 +3969,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(8)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3978,7 +3978,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(13)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3987,7 +3987,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -3996,7 +3996,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(9)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4005,7 +4005,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(9)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4014,7 +4014,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(8)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4023,7 +4023,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(12)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4032,7 +4032,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(14)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4041,7 +4041,7 @@ case 'blackpink':
                     if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bambang*`)
                    F = body.slice(10)
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${ini_txt}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=0842b5260da99b7a62d64ab3&text=${F}`)
                buffer1 = await getBuffer(anu.result.results)
                 bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4052,7 +4052,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4063,7 +4063,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4074,7 +4074,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4085,7 +4085,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4096,7 +4096,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4107,7 +4107,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4118,7 +4118,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4129,7 +4129,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4140,7 +4140,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4151,7 +4151,7 @@ case 'blackpink':
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+               anu = await fetchJson(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                buffer1 = await getBuffer(anu.result.results)
                bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4223,7 +4223,7 @@ if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bamb
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                     buffer1 = await getBuffer(anu.result.results)
                         bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4234,7 +4234,7 @@ if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bamb
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                     buffer1 = await getBuffer(anu.result.results)
                         bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
@@ -4245,7 +4245,7 @@ if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Bamb
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
                    reply(mess.wait)
-                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${txt1}&text2=${txt2}`)
+                    anu = await fetchJson(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=0842b5260da99b7a62d64ab3&text1=${F1}&text2=${F2}`)
                     buffer1 = await getBuffer(anu.result.results)
                         bambang.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./media/thumb.jpg'), caption: 'Nih Bro Dah Jadi'})
                     break
